@@ -24,8 +24,8 @@ public class ButtonDo {
 
 
     //TODO saveButton
+    //TODO lastButton
     //TODO set Max Value to display
-    //TODO (negButton) case if equals pressed post math buttons not working
 
 
     //private double save, last;

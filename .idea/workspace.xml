@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f335792c-d511-417c-a84d-76293d2dfdac" name="Default Changelist" comment="" />
+    <list default="true" id="f335792c-d511-417c-a84d-76293d2dfdac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/notjoecode/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="306">
               <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -31,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/notjoecode/CalcLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
+            <state relative-caret-position="2108">
               <caret line="126" column="19" selection-start-line="120" selection-start-column="3" selection-end-line="126" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,16 +42,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="103" column="37" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
+            <state relative-caret-position="476">
+              <caret line="28" column="75" lean-forward="true" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/notjoecode/CalcLayout.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
@@ -74,6 +76,9 @@
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -89,9 +94,9 @@
         <option value="$PROJECT_DIR$/src/com/notjoecode/OtherButton.java" />
         <option value="$PROJECT_DIR$/src/com/notjoecode/ButtonDoer.java" />
         <option value="$PROJECT_DIR$/src/com/notjoecode/CalcLayout.java" />
-        <option value="$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java" />
         <option value="$PROJECT_DIR$/src/com/notjoecode/Main.java" />
         <option value="$PROJECT_DIR$/src/com/notjoecode/CalcLayout.form" />
+        <option value="$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java" />
       </list>
     </option>
   </component>
@@ -100,6 +105,9 @@
     <option name="y" value="1103" />
     <option name="width" value="1919" />
     <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -146,8 +154,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,16 +207,32 @@
       <option name="presentableId" value="Default" />
       <updated>1557929233612</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed case decutton followed by mathsButton">
+      <created>1558496065996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558496065997</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed empty if body">
+      <created>1558496147041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558496147041</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="985" y="1103" width="1919" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.2501339" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.2533476" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -218,7 +242,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="4" weight="0.29809725" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32980973" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32980973" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32980973" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39957717" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -233,184 +257,16 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>158</line>
-          <properties />
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>159</line>
-          <properties />
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>160</line>
-          <properties />
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>164</line>
-          <properties />
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>165</line>
-          <properties />
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>168</line>
-          <properties />
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>170</line>
-          <properties />
-          <option name="timeStamp" value="136" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>163</line>
-          <properties />
-          <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>262</line>
-          <properties />
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>263</line>
-          <properties />
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>264</line>
-          <properties />
-          <option name="timeStamp" value="141" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>265</line>
-          <properties />
-          <option name="timeStamp" value="142" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>266</line>
-          <properties />
-          <option name="timeStamp" value="143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>269</line>
-          <properties />
-          <option name="timeStamp" value="144" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>273</line>
-          <properties />
-          <option name="timeStamp" value="145" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>106</line>
-          <properties />
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>107</line>
-          <properties />
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>108</line>
-          <properties />
-          <option name="timeStamp" value="148" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>109</line>
-          <properties />
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>110</line>
-          <properties />
-          <option name="timeStamp" value="150" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>112</line>
-          <properties />
-          <option name="timeStamp" value="151" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>117</line>
-          <properties />
-          <option name="timeStamp" value="152" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>116</line>
-          <properties />
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java</url>
-          <line>119</line>
-          <properties />
-          <option name="timeStamp" value="154" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed case decutton followed by mathsButton" />
+    <MESSAGE value="fixed empty if body" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed empty if body" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/ResultDigitDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/ResultDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/CalculatorLayout.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/CalculatorLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/ResultDigitDisplay.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/ResultDisplay.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/CalculatorLayout.form" />
+    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/CalculatorLayout.java" />
     <entry file="file://$PROJECT_DIR$/src/res/Calculator.ttf">
       <provider selected="true" editor-type-id="fontseditor" />
     </entry>
@@ -425,13 +281,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/DecButtonDo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/DecButtonDo.java" />
     <entry file="file://$PROJECT_DIR$/src/com/notjoecode/FontGetter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -474,27 +324,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="103" column="37" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/CalcLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="126" column="19" selection-start-line="120" selection-start-column="3" selection-end-line="126" selection-end-column="19" />
+        <state relative-caret-position="306">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/CalcLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="2108">
+          <caret line="126" column="19" selection-start-line="120" selection-start-column="3" selection-end-line="126" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -503,6 +346,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/notjoecode/CalcLayout.form">
       <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/notjoecode/ButtonDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="75" lean-forward="true" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
