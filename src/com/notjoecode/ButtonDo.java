@@ -95,7 +95,9 @@ public class ButtonDo {
 //            checkDec = fmt(x);
 //            return checkDec;
 //        }
-        if(x == 0){}
+        if(x == 0){
+            x=0;
+        }
         else if(checkDec.contains(" ")) {
             if (!tempInUse) {
                 x *= -1;
