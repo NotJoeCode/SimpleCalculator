@@ -27,8 +27,6 @@ public class ButtonDo {
     //TODO set Max Value to display
     //TODO (negButton) case if equals pressed post math buttons not working
 
-    //TODO double check if(temp == 0) in mathsButton :: might need to be !tempInUse
-
 
     //private double save, last;
     private double x, temp, decPlace, zerosPressed;
@@ -98,10 +96,22 @@ public class ButtonDo {
 //            return checkDec;
 //        }
         if(x == 0){}
-        else if(checkDec.contains(" ")){
-            double d = Double.parseDouble(checkDec);
-            d = -d;
-            checkDec = fmt(d) + ". ";
+        else if(checkDec.contains(" ")) {
+            if (!tempInUse) {
+                x *= -1;
+                temp = x;
+                checkDec = fmt(x) + ". ";
+            }
+            else if(newNum){
+                temp *= -1;
+                x = temp;
+                checkDec = fmt(temp) + ". ";
+
+            }
+            else{
+                x *= -1;
+                checkDec = fmt(x) + ". ";
+            }
         }
         else if(!tempInUse) {
             checkDec = mathsButton("equalsButton");
@@ -113,8 +123,14 @@ public class ButtonDo {
             checkDec = fmt(x);
 
         }
+        else if(newNum){
+            temp *= -1;
+            x = temp;
+            checkDec = fmt(temp);
+        }
         else{
             x *= -1;
+
             checkDec = fmt(x);
         }
         return checkDec;
@@ -123,7 +139,7 @@ public class ButtonDo {
     public String mathsButton(String s){
 
         if(!newNum) {
-            if (temp == 0) {
+            if (!tempInUse) {
                 temp = x;
                 tempInUse = true;
                 x = 0;
@@ -191,7 +207,7 @@ public class ButtonDo {
                 divide = true;
                 break;
             case "equalsButton":
-                tempInUse = false;
+                //tempInUse = false;
                 newNum = true;
                 zerosPressed = 0;
                 break;
